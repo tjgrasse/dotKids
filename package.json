@@ -1,0 +1,13 @@
+{
+  "name": "dotkids",
+  "version": "1.0.0",
+  "description": "dotKids Application",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": "https://github.com/tjgrasse/dotKids",
+  "devDependencies": {
+    "electron": "^6.0.1"
+  }
+}

@@ -1,5 +1,8 @@
 # dotKids
 
+# npm install
+
+# npm start
 Creators:
 Ryan Cryar, Antonio Dominikovic, T James Grasse, Jenny Nguyen, Kevin Nieh
 
