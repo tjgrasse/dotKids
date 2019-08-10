@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css" type="text/css">
+        <title>Child Filter Settings</title>
+    </head>
+<body>
+    <h1>dotKids Child Registration Form</h1>
+    <div class="container border border-dark rounded childTextFilter">
+        <p>
+            Please fill out as much information in the form below as you feel comfortable doing to create the filter for your child.  The more information you provide, the more efficient the filter will be at only showing the appropriate material.
+        </p>
+    </div>
+    <form class="container border border-dark rounded childFilter" id="childFilterForm">
+        <fieldset class="form-group">
+            <legend>Video Content</legend>
+            <div class="form-group row">
+                <div class="form-check">
+                    <input type="checkbox" class="form-check-input" id="content1">
+                    <label class="form-check-label" for="content1" style="font-size: 18px">Allow Video Content</label>
+                </div>
+            </div>
+            <div class="form-group row">
+                <div class="col">
+                    <div class="form-group">
+                        <label for="videoDuration">Daily Watch Duration</label>
+                        <select class="form-control" id="videoDuration">
+                            <option>30 Min</option>
+                            <option>1 Hour</option>
+                            <option>2 Hour</option>
+                            <option>3 Hour</option>
+                            <option>Unlimited</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="form-group">
+                        <label for="videoEndTime">Time End Video Play</label>
+                        <select class="form-control" id="videoEndTime">
+                            <option>06:00 PM</option>
+                            <option>07:00 PM</option>
+                            <option>08:00 PM</option>
+                            <option>09:00 PM</option>
+                            <option>10:00 PM</option>
+                            <option>11:00 PM</option>
+                            <option>No End Time</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <fieldset class="form-group">
+                <h6>Video Settings</h6>
+                <div class="form-group row">
+                    <div class="col">
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" id="videoSettings1">
+                            <label class="form-check-label" for="videoSettings1">Educational Only</label>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" id="videoSettings2">
+                            <label class="form-check-label" for="videoSettings2">No Violence</label>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" id="videoSettings3">
+                            <label class="form-check-label" for="videoSettings3">No Animation</label>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" id="videoSettings4">
+                            <label class="form-check-label" for="videoSettings4">Max 10 Min Clips</label>
+                        </div>
+                    </div>
+                </div>
+            </fieldset>
+            <fieldset class="form-group">
+                <h6>Video Genres</h6>
+                <div class="form-group row">
+                    <div class="col">
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" id="videoGenre1">
+                            <label class="form-check-label" for="videoGenre1">History</label>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" id="videoGenre2">
+                            <label class="form-check-label" for="videoGenre2">Science</label>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" id="videoGenre3">
+                            <label class="form-check-label" for="videoGenre3">Animals</label>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" id="videoGenre4">
+                            <label class="form-check-label" for="videoGenre4">Technology</label>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" id="videoGenre5">
+                            <label class="form-check-label" for="videoGenre5">Sports</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <div class="col">
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" id="videoGenre6">
+                            <label class="form-check-label" for="videoGenre6">Nature</label>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" id="videoGenre7">
+                            <label class="form-check-label" for="videoGenre7">Culture</label>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" id="videoGenre8">
+                            <label class="form-check-label" for="videoGenre8">Documentary</label>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" id="videoGenre9">
+                            <label class="form-check-label" for="videoGenre9">Cartoons</label>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" id="videoGenre10">
+                            <label class="form-check-label" for="videoGenre10">News</label>
+                        </div>
+                    </div>
+                </div>
+            </fieldset>
+        </fieldset>
+        
+        <fieldset class="form-group">
+            <legend>Web-Browsing Content</legend>
+            <div class="form-group row">
+                <div class="form-check">
+                    <input type="checkbox" class="form-check-input" id="content1">
+                    <label class="form-check-label" for="content1" style="font-size: 18px">Allow Web-Browsing Content</label>
+                </div>
+            </div>
+            <fieldset class="form-group">
+                <h6>Web Settings</h6>
+                <div class="form-group row">
+                    <div class="col">
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" id="webSettings1">
+                            <label class="form-check-label" for="webSettings1">Educational Only Sites</label>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" id="webSettings2">
+                            <label class="form-check-label" for="webSettings2">Allow Manual Browsing</label>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" id="webSettings2">
+                            <label class="form-check-label" for="webSettings2">Prevent Interactive Sites</label>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" id="webSettings2">
+                            <label class="form-check-label" for="webSettings2">Only Sites I Have Approved</label>
+                        </div>
+                    </div>
+                </div>
+            </fieldset>
+        </fieldset>
+
+        <fieldset class="form-group">
+            <legend>Game Content</legend>
+            <div class="form-group row">
+                <div class="form-check">
+                    <input type="checkbox" class="form-check-input" id="content1">
+                    <label class="form-check-label" for="content1" style="font-size: 18px">Allow Game Content</label>
+                </div>
+            </div>
+            <div class="form-group row">
+                <div class="col">
+                    <div class="form-group">
+                        <label for="gameDuration">Daily Play Duration</label>
+                        <select class="form-control" id="gameDuration">
+                            <option>30 Min</option>
+                            <option>1 Hour</option>
+                            <option>2 Hour</option>
+                            <option>3 Hour</option>
+                            <option>Unlimited</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="form-group">
+                        <label for="gameEndTime">Time End Game Play</label>
+                        <select class="form-control" id="gameEndTime">
+                            <option>06:00 PM</option>
+                            <option>07:00 PM</option>
+                            <option>08:00 PM</option>
+                            <option>09:00 PM</option>
+                            <option>10:00 PM</option>
+                            <option>11:00 PM</option>
+                            <option>No End Time</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <fieldset class="form-group">
+                <h6>Game Settings</h6>
+                <div class="form-group row">
+                    <div class="col">
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" id="gameSettings1">
+                            <label class="form-check-label" for="gameSettings1">Educational Only</label>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" id="gameSettings2">
+                            <label class="form-check-label" for="gameSettings2">No Violence</label>
+                        </div>
+                    </div>
+                </div>
+            </fieldset>
+            <fieldset class="form-group">
+                <h6>Game Genres</h6>
+                <div class="form-group row">
+                    <div class="col">
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" id="genre1">
+                            <label class="form-check-label" for="genre1">RPG</label>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" id="genre2">
+                            <label class="form-check-label" for="genre2">Action</label>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" id="genre3">
+                            <label class="form-check-label" for="genre3">Adventure</label>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" id="genre4">
+                            <label class="form-check-label" for="genre4">Puzzle</label>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" id="genre5">
+                            <label class="form-check-label" for="genre5">Racing</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <div class="col">
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" id="genre6">
+                            <label class="form-check-label" for="genre6">Strategy</label>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" id="genre7">
+                            <label class="form-check-label" for="genre7">Simulation</label>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" id="genre8">
+                            <label class="form-check-label" for="genre8">Sports</label>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" id="genre9">
+                            <label class="form-check-label" for="genre9">Multiplayer</label>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" id="genre10">
+                            <label class="form-check-label" for="genre10">Card</label>
+                        </div>
+                    </div>
+                </div>
+            </fieldset>
+        </fieldset>
+        <button type="submit" class="btn btn-success" id="submitFormBtn">Submit</button>
+    </form>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>
