@@ -24,3 +24,5 @@ function checkFormContents() {
    }
    return true;
 }
+
+module.exports = { passwordsEqual }
