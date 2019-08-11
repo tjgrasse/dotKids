@@ -4,7 +4,8 @@
   "description": "dotkids server and corresponding webpages",
   "main": "src/index/server.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "start": "node src/index/server.js"
   },
   "repository": {
     "type": "git",
@@ -18,5 +19,8 @@
   "homepage": "https://github.com/tjgrasse/dotKids#readme",
   "devDependencies": {
     "mocha": "^6.2.0"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
   }
 }
