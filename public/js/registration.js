@@ -60,5 +60,7 @@ function passwordsEqual(password1, password2){
     return true;
  }
 
- 
+ module.exports = { passwordsEqual };
+ module.exports = { notEmpty };
+ module.exports = { isChecked };
 

@@ -2,7 +2,7 @@
   "name": "dotkids",
   "version": "1.0.0",
   "description": "dotkids server and corresponding webpages",
-  "main": "src/index/server.js",
+  "main": "server.js",
   "scripts": {
     "test": "mocha",
     "start": "node server.js"
