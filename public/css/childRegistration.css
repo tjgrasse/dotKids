@@ -2,6 +2,43 @@ body {
     background-color: lightblue;
 }
 
+/* Headers */
+.nav-container {
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background: rgb(111, 164, 194);
+    padding-top: 25px;
+    min-height: 40px;
+    padding-bottom: 20px;
+}
+
+header li {
+    float: left;
+    display: inline;
+    padding: 0 12px 0 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 2em;
+
+}
+
+header #branding {
+    float: left;
+}
+
+header #branding h1 {
+    margin: 0;
+}
+
+header nav {
+    float: right;
+    margin-top: 10px;
+}
+
 /* Form Styling */
 .childForm {
     width: 40%;
@@ -28,6 +65,21 @@ body {
     background-color: rgb(221, 224, 226);
 }
 
+.parentSettingContainer {
+    width: 40%;
+    margin: auto;
+    margin-top: 30px;
+    padding: 20px;
+    background-color: rgb(221, 224, 226);
+}
+
+.parent-button {
+    background-color: azure;
+    width: 40%;
+    height: 100px;
+    margin: 5%;
+}
+
 h1 {
     font-size: 3em;
     text-align: center;
@@ -37,4 +89,4 @@ h1 {
     letter-spacing: 4px;
     font-family: 'Roboto', sans-serif;
     margin-top: 20px;
-  }
+}
