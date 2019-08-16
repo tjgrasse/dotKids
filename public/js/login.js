@@ -38,7 +38,10 @@ function checkFormContents() {
   }
   if(isChecked(checkbox2) == false)
   {
-    window.location.href = "../views/parenthome";
+    window.location.href = "/views/home.html";
   }
-  window.location.href = "/parenthome";
+  else
+  {
+    window.location.href = "/views/parentSettings.html";
+  }
 }

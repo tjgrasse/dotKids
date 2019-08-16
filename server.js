@@ -29,14 +29,26 @@ app.get('/', function(req, res) {
 app.post('/login', function(req, res) {
 	console.log('Login User');
 	if(req.body.checkLoggedParent) {
-		res.sendFile(path.join(__dirname + '/views/parenthome.html'));
+		res.sendFile(path.join(__dirname + '/views/parentSettings.html'));
 	}
-	res.sendFile(path.join(__dirname + '/views/home.html'));
+	else{
+		res.sendFile(path.join(__dirname + '/views/home.html'));
+	}
 });
 
-app.get('/parenthome', function(req, res) {
-	console.log('rendering parent home');
-	res.sendFile(path.join(__dirname + '/views/parenthome.html'));
+app.get('/childRegistration', function(req, res) {
+	console.log('rendering child registration');
+	res.sendFile(path.join(__dirname + '/views/childRegistration.html'));
+});
+
+app.get('/childFilter', function(req, res) {
+	console.log('rendering child filter settings');
+	res.sendFile(path.join(__dirname + '/views/childFilter.html'));
+});
+
+app.get('/parentSettings', function(req, res) {
+	console.log('rendering parent settings');
+	res.sendFile(path.join(__dirname + '/views/parentSettings.html'));
 });
 
 app.get('/home', function(req, res) {

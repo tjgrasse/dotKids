@@ -23,10 +23,28 @@
     <h1>Parent Settings</h1>
     <div class="container border border-dark rounded parentSettingContainer">
         <div class="row">
-            <button type="button" onclick="window.location='childRegistration.html'" class="border border-dark rounded parent-button">Create Child Account</button>
-            <button type="button" onclick="window.location='childFilter.html'" class="border border-dark rounded parent-button">Set/Update Child Filter</button>
-            <button type="button" onclick="alert('Usage Report is not implemented at this time');" class="border border-dark rounded parent-button">Run Usage Report</button>
-            <button type="button" onclick="alert('Change Password is not implemented at this time');" class="border border-dark rounded parent-button">Change Password</button>
+            <div class="col">
+                <form method="GET" action="/views/childRegistration.html">
+                    <input type="submit" class="parent-settings" value="Create Child Account" />
+                </form>
+            </div>
+            <div class="col">
+                <form method="GET" action="/views/childFilter.html">
+                    <input type="submit" class="parent-settings" value="Set/Update Child Filter" />
+                </form>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <form method="GET" action="/views/parentSettings.html">
+                    <input type="submit" class="parent-settings" onclick="alert('Usage Report is not implemented at this time');" value="Usage Report" />
+                </form>
+            </div>
+            <div class="col">
+                <form method="GET" action="/views/parentSettings.html">
+                    <input type="submit" class="parent-settings" onclick="alert('Change Password is not implemented at this time');" value="Reset Password" />
+                </form>
+            </div>
         </div>
     </div>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
